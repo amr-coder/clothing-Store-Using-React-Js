@@ -1,0 +1,91 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   padding: 16px;
+    
+   box-shadow: 0 1px 3px -2px black;
+    background: color-mix(in srgb, rgba(245, 168, 149, 0.411) 80%, lightcoral 20%)
+    /* background: rgba(220, 20, 60, 0.829); */
+   
+}
+.navlogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navlogo p{
+    color: rgba(255, 95, 55, 0.979);
+
+    font-size: 38px;
+    font-weight: 600;
+}
+.logo{
+    height:6rem;
+    width: 6rem;
+}
+.navmenu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.navmenu li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navmenu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: cadetblue;
+    
+    
+}
+.cartlogin{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.cartlogin button {
+   width:157px;
+   height:58px;
+   outline: none;
+   border: none;
+   border-radius: 75px;
+   color: whitesmoke;
+   font-size: 20px;
+   font-weight: 500;
+   margin-top: 2rem;
+   background: rgba(255, 95, 55, 0.979);
+   cursor: pointer;
+}
+.cartlogin button:active{
+    background: rgba(247, 58, 10, 0.979);
+}
+.cartcount{
+    width: 22px;height: 22px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+.hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
